@@ -43,7 +43,8 @@ module RestClient
     end
 
     def self.default_user_agent
-      "rest-client/#{VERSION} (#{architecture}) #{ruby_agent_version}"
+      #"rest-client/#{VERSION} (#{architecture}) #{ruby_agent_version}"
+      ''
     end
   end
 end
